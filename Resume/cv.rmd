@@ -29,7 +29,7 @@ if(Offline){
   load(file = "cache/CV.rda")
 } else {
   CV <- create_CV_object(
-  data_location = "https://docs.google.com/spreadsheets/d/1KJCKy2NaD_nx8gR0FHr4tb8pOk-lvxDixgs80jO687Q/edit#gid=917338460",  
+  data_location = "https://docs.google.com/spreadsheets/d/1xBOxRsdm2hlpK8T4v46Rb7BZaHfNCYGR03h95_Hfqi0/edit?usp=sharing",  
   pdf_mode = params$pdf_mode, 
   sheet_is_publicly_readable = FALSE)
   

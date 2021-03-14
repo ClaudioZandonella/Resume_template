@@ -6,6 +6,8 @@
 \usage{
 create_CV_object(
   data_location,
+  blocks = c("education", "academic", "working", "educational", "publications",
+    "products"),
   pdf_mode = FALSE,
   sheet_is_publicly_readable = TRUE
 )
