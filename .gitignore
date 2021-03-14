@@ -1,0 +1,22 @@
+#----    R utils    ----
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+#----    folders    ----
+cache/
+
+#----    outputs    ----
+*.html
+*.pdf
+
+#----    MacOS utils    ----
+.DS_Store
+
+#----    Secrets    ----
+.secrets/
+
+#----    other files    ----
+Resume/Resume.Rmd
+

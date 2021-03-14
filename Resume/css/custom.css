@@ -1,0 +1,19 @@
+/* Customize some of the sizing variables */
+  :root {
+    --sidebar-width: 14rem; /* Shrink sidebar width  */
+  }
+
+.main-block.concise .details div:not(.concise) {
+    padding: 0;
+}
+
+.main-block:not(.concise) .details div {
+    padding: 0;
+}
+
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 9rem;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
+
